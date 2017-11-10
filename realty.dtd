@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!ELEMENT realty(sector*,mansion*,property*)>
+<!ELEMENT sector (adress,type,date,body)>
+<!ELEMENT property (name,adress,type,date,amount,price)>
+<!ELEMENT mansion (adress,type,price)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT adress (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!-- <realty>
+  <property>
+    <name>qwerty</name>
+    <adress>Kultury st.9</adress>
+    <type>hous</type>
+    <date>22.65.7890</date>
+    <amount>666flats</amount>
+    <cost>140 000$</cost>
+  </property>
+
+  <sector>
+    <adress>qwedsasdcx</adress>
+    <type>sector</type>
+    <date>12.45.0987</date>
+    <cost>100$</cost>
+  </sector>
+
+  <mansion>
+    <adress>HZ</adress>
+    <type>mansion</type>
+    <cost>5000000$</cost>
+  </mansion>
+</realty> -->
