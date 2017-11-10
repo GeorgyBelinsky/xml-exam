@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="realty.xsl"?>
+<!DOCTYPE realty SYSTEM "realty.dtd">
+
+<realty>
+  <property>
+    <name>qwerty</name>
+    <adress>Kultury st.9</adress>
+    <type>hous</type>
+    <date>22.65.7890</date>
+    <amount>666flats</amount>
+    <price>140 000$</price>
+  </property>
+
+  <sector>
+    <adress>qwedsasdcx</adress>
+    <type>sector</type>
+    <date>12.45.0987</date>
+    <price>100$</price>
+  </sector>
+
+  <mansion>
+    <adress>HZ</adress>
+    <type>mansion</type>
+    <price>5000000$</price>
+  </mansion>
+</realty>
